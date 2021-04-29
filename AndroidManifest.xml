@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.riyadh.baradoni" >
+
+   <uses-permission android:name="android.permission.INTERNET"/>
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+   
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+			
+            android:theme="@style/AppTheme.NoActionBar">
+			
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+         
+        </activity>
+        
+        
+            <activity
+				android:name=".NewsDetails"
+            
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".MainActivity">
+                   <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+                     </activity>
+		<activity
+			android:name=".News1Details"
+
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".MainActivity">
+			<meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+		</activity>
+                       <activity
+            android:name=".BaradoniActivity"
+            android:label="@string/title_activity_baradoniactivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".MainActivity">
+                   <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+                     </activity>
+                     <activity
+            android:name=".Baradoni1Activity"
+            android:label="@string/title_activity_baradoniactivity1"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".MainActivity">
+                   <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+                     </activity>
+                     <activity
+            android:name=".Baradoni2Activity"
+            android:label="@string/title_activity_baradoniactivity2"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".MainActivity">
+                   <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+                     </activity>
+                     <activity
+            android:name=".Baradoni3Activity"
+            android:label="@string/title_activity_baradoniactivity3"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".MainActivity">
+                   <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+                
+                     </activity>
+                     <activity
+            android:name=".Baradoni4Activity"
+            android:label="@string/title_activity_baradoniactivity4"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".MainActivity">
+                   <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+                     </activity>
+                     <activity
+            android:name=".Baradoni5Activity"
+            android:label="@string/title_activity_baradoniactivity5"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".MainActivity">
+                   <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+                     </activity>
+                     <activity
+            android:name=".Baradoni6Activity"
+            android:label="@string/title_activity_baradoniactivity6"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".MainActivity">
+                   <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+                     </activity>
+                     <activity
+            android:name=".Baradoni7Activity"
+            android:label="@string/title_activity_baradoniactivity7"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".MainActivity">
+                   <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+                     </activity>
+                     <activity
+            android:name=".Baradoni8Activity"
+            android:label="@string/title_activity_baradoniactivity8"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".MainActivity">
+                   <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+                     </activity>
+                     <activity
+            android:name=".Baradoni9Activity"
+            android:label="@string/title_activity_baradoniactivity9"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".MainActivity">
+                   <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+                     </activity>
+                     <activity
+            android:name=".Baradoni10Activity"
+            android:label="@string/title_activity_baradoniactivity10"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".MainActivity">
+                   <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+                     </activity>
+                     <activity
+            android:name=".Baradoni11Activity"
+            android:label="@string/title_activity_baradoniactivity11"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".MainActivity">
+                   <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+                     </activity>
+                     <activity
+            android:name=".Baradoni12Activity"
+            android:label="@string/title_activity_baradoniactivity12"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".MainActivity">
+                   <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+                     </activity>
+                     <activity
+            android:name=".Baradoni13Activity"
+            android:label="@string/title_activity_baradoniactivity13"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".MainActivity">
+                   <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+                     </activity>
+                     <activity
+            android:name=".Baradoni14Activity"
+            android:label="@string/title_activity_baradoniactivity14"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".MainActivity">
+                   <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+                     </activity>
+                     <activity
+            android:name=".Baradoni15Activity"
+            android:label="@string/title_activity_baradoniactivity15"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".MainActivity">
+                   <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+                     </activity>
+		<activity
+            android:name=".SearchaActivity"
+            android:label="البحث"
+			
+            android:theme="@style/AppTheme.NoActionBar"
+			android:parentActivityName=".MainActivity">
+			<meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+		
+			<intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            
+			
+		</activity>
+		<activity
+            android:name=".NewsaDetails"
+            
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".MainActivity">
+			<meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+		</activity>
+            
+		
+		<activity
+            android:name=".SearchListing"
+			android:label="@string/search_result"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".MainActivity">
+			<meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+		</activity>
+		
+             <activity
+            android:name=".activity.AboutUsActivity"
+            android:label="@string/activity_title_about_us" />
+        <activity
+            android:name=".activity.PrivacyPolicyActivity"
+            android:label="@string/activity_title_privacy_policy" />
+    </application>
+
+</manifest>
